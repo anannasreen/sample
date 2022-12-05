@@ -29,4 +29,9 @@ button{
     width: 200px;
     border-radius: 5px;
     font-size: 20px;
+    margin-bottom: 20px;
+    color: white;
+}
+#save-btn{
+    background-color: green;
 }

@@ -28,3 +28,24 @@ function increment() {
     console.log(count)
     document.getElementById("count-el").innerText=count 
 }
+function save() {
+    console.log(count)
+}
+
+let Name = "Anan"
+let greeting = "Hi, my name is"
+let myGreeting = greeting + " " + Name
+console.log(myGreeting)
+
+let welcomeEl = document.getElementById("welcome-el")
+let name2 = "Anan Nasreen"
+let greeting2 = "Welcome back "
+welcomeEl.innerText = greeting2 + name2
+
+let errorParagraph = document.getElementById("error")
+console.log(errorParagraph)
+
+function purchase() {
+    console.log("button clicked")
+    errorParagraph.textContent = "Something went wrong, please try again later"
+}
