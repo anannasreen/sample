@@ -1,6 +1,5 @@
 section{
     width: 96vw;
-    height: 98vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -34,4 +33,22 @@ button{
 }
 #save-btn{
     background-color: green;
+}
+.blackjack h1{
+    color: rgb(3, 10, 68);
+}
+.blackjack{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: cadetblue;
+}
+.blackjack p{
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#start-btn{
+    background-color: rgb(20, 43, 220);
 }
