@@ -260,10 +260,10 @@
 //       console.log("Button clicked!")
 // }
  
-// let inputBtn = document.getElementById("input-btn")
-// inputBtn.addEventListener("click", function(){
-//     console.log("Button clicked")
-// })
+let inputBtn = document.getElementById("input-btn")
+inputBtn.addEventListener("click", function(){
+    console.log("Button clicked")
+})
 
 // let myLeads = ["www.awesomelead.com", "www.epiclead.com", "www.greatlead.com"]
 // const inputEl = document.getElementById("input-el")
@@ -282,26 +282,38 @@
 //     li.textContent = myLeads[i]
 //     ulEl.append(li)
 // } 
-let n = 10
+let n = 50
+let answer = 0
+// let answer2 = 0
+
 
 for(let i=2; i < n; i++ ) {
     
     if(n % i === 0) {
-        console.log("Not a Prime Number")
-    } else {
-        console.log("It's a Prime Number")
+         answer = answer + 1
+       
     }
+    //  else {
+   
+    //    answer2 = answer2 + 1
+    // }
     
 }
-
-
-let x = 78
-let y = 69
-let z = 200
-if( x > y && x > z ) {
-    console.log(x)
-} else if ( y > x && y > z ) {
-    console.log(y)
-} else {
-    console.log(z)
+if (answer === 0){
+    console.log("its a prime")
+}else{
+    console.log("its not a prime")
 }
+
+
+
+// let x = 78
+// let y = 69
+// let z = 200
+// if( x > y && x > z ) {
+//     console.log(x)
+// } else if ( y > x && y > z ) {
+//     console.log(y)
+// } else {
+//     console.log(z)
+// }

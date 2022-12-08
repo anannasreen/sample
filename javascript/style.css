@@ -52,3 +52,10 @@ button{
 #start-btn{
     background-color: rgb(20, 43, 220);
 }
+#input-btn{
+    background-color: green;
+    padding: 5px 0;
+    margin-top: 20px;
+    font-size: 12px;
+    width: 100px;
+}
