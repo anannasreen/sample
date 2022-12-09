@@ -260,10 +260,10 @@
 //       console.log("Button clicked!")
 // }
  
-let inputBtn = document.getElementById("input-btn")
-inputBtn.addEventListener("click", function(){
-    console.log("Button clicked")
-})
+// let inputBtn = document.getElementById("input-btn")
+// inputBtn.addEventListener("click", function(){
+//     console.log("Button clicked")
+// })
 
 // let myLeads = ["www.awesomelead.com", "www.epiclead.com", "www.greatlead.com"]
 // const inputEl = document.getElementById("input-el")
@@ -276,34 +276,35 @@ inputBtn.addEventListener("click", function(){
 // })
 
 // for (let i = 0; i < myLeads.length; i++) {
-//     ulEl.textContent += myLeads[i] + " "
-//     ulEl.innerHTML += "<li>" + myLeads[i] + "</li>"
-//     const li = document.createElement("li")
-//     li.textContent = myLeads[i]
-//     ulEl.append(li)
-// } 
-let n = 50
-let answer = 0
-// let answer2 = 0
+//     ulEl.innerHTML += "<li>" myLeads[i] + "</li>"
+// }
+    // ulEl.innerHTML += "<li>" + myLeads[i] + "</li>"
+    // const li = document.createElement("li")
+    // li.textContent = myLeads[i]
+    // ulEl.append(li)
+
+// let n = 50
+// let answer = 0
+// // let answer2 = 0
 
 
-for(let i=2; i < n; i++ ) {
+// for(let i=2; i < n; i++ ) {
     
-    if(n % i === 0) {
-         answer = answer + 1
+//     if(n % i === 0) {
+//          answer = answer + 1
        
-    }
-    //  else {
+//     }
+//     //  else {
    
-    //    answer2 = answer2 + 1
-    // }
+//     //    answer2 = answer2 + 1
+//     // }
     
-}
-if (answer === 0){
-    console.log("its a prime")
-}else{
-    console.log("its not a prime")
-}
+// }
+// if (answer === 0){
+//     console.log("its a prime")
+// }else{
+//     console.log("its not a prime")
+// }
 
 
 
@@ -317,3 +318,28 @@ if (answer === 0){
 // } else {
 //     console.log(z)
 // }
+
+// const container = document.getElementById("container")
+// container.innerHTML = "<button onclick='buy()'>Buy!</button>"
+// function buy(){
+//     container.innerHTML += "<p>Thank you for buying!</p>"
+// }
+
+
+// let i = 0
+// for(i = 0; i < 10; i += 2) {
+//     console.log(i)
+// }
+
+// for(let x = 1; x < 10; x++){
+// for(let y =1 ; y < 10; y++ ) {
+//     let c =x * y
+//     console.log (c)
+// }
+// }
+
+let i = 50
+let c = i % 10 === 0
+Boolean(c)
+ console.log(Boolean())
+
